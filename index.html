@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link preload="images/coverr.webp" as="image">
+</head>
+<body>
+    <nav>
+        <div class="nav-content">
+            <div class="logo">
+                <a href="#home">Portfolio</a>
+            </div>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#personal">Personal Development</a></li>
+                <li><a href="#photography">Photography</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="negative-text">Welcome to My Portfolio</h1>
+            <p class="negative-text">Computer Science Student & Photographer</p>
+            <img src="images/coverr.webp" alt="Cover Image">
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <div class="profile-image">
+                <img src="images/01.webp" alt="Profile Picture" class="profile-pic">
+            </div>
+            <p>Hi, I’m Hilmi, a Computer Science student specializing in Software Engineering 
+                at Universiti Teknologi Malaysia. <br> I’m passionate about photography, coffee brewing, 
+                and building creative tech solutions that address real-world problems. <br> Whether I’m 
+                coding, capturing moments on film, or experimenting with coffee, I’m driven by curiosity, 
+                creativity, and a desire to make a positive impact.</p>
+        </div>
+    </section>
+
+    <section id="work" class="Work">
+        <h2>My Works</h2>
+        <div class="Work-grid">
+            <div class="Work-item">
+                <div class="Work-image">
+                    <img src="images/browniesha.webp" alt="Photo 1">
+                </div>
+                <div class="Work-content">
+                    <div class="Work-info">
+                        <h3>Created Browniesha</h3>
+                        <p class="Work-date">11th March 2025</p>
+                        <div class="Work-summary">
+                            <p><a href = "https://preview--brownie-bakery-hub.lovable.app/" class = custom-link>Browniesha</a> 
+                                is a family owned brownie shop that sells a variety of brownies and drinks like matcha and coffee
+                                I helped create the website for Browniesha and designed all of the pages and created the admin panel for them.
+                                I also created the database for the website and added all the necessary features.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section id="recent" class="recent">
+        <h2>Personal Development</h2>
+        <div class="recent-grid">
+            <div class="recent-item">
+                <div class="recent-image">
+                    <img src="images/photo1.webp" alt="Photo 1">
+                </div>
+                <div class="recent-content">
+                    <div class="recent-info">
+                        <h3>Celcomdigi Seminar</h3>
+                        <p class="event-date">29th April 2025</p>
+                        <div class="event-summary">
+                            <p>Attended an insightful seminar by Celcomdigi discussing the future of telecommunications and digital transformation in Malaysia. The event covered various topics including 5G implementation, digital infrastructure, and emerging technologies in the telecom sector.</p>
+                        </div>
+                        <ul>
+                            <li>5G Implementation</li>
+                            <li>Digital Infrastructure</li>
+                            <li>Emerging Technologies</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="photography" class="photography">
+        <h2>Photography</h2>
+        <div class="photo-grid">
+            <div class="photo-item">
+                <img src="images/pg1.webp" alt="Photo 1" loading="lazy">
+                <p>The Lonely Shop</p>
+            </div>
+            <div class="photo-item">
+                <img src="images/pg2.webp" alt="Photo 2" loading="lazy">
+                <p>In The End, Nature Wins</p>
+            </div>
+            <div class="photo-item">
+                <img src="images/pg9.webp" alt="Photo 9" loading="lazy">
+                <p>The Whole City to Themself</p>
+            </div>
+            <div class="photo-item">
+                <img src="images/pg10.webp" alt="Photo 10" loading="lazy">
+                <p>Kindness Around</p>
+            </div>
+            <div class="photo-item">
+                <img src="images/pg3.webp" alt="Photo 3" loading="lazy">
+                <p>Tired Champion</p>
+            </div>
+            <div class="photo-item">
+                <img src="images/pg4.webp" alt="Photo 4" loading="lazy">
+                <p>Porsche</p>
+            </div>
+            <div class="photo-item">
+                <img src="images/pg7.webp" alt="Photo 5" loading="lazy">
+                <p>Happy Dance</p>
+            </div>
+            <div class="photo-item">
+                <img src="images/pg6.webp" alt="Photo 6" loading="lazy">
+                <p>Stealing The Spotlight</p>
+            </div>
+            <div class="photo-item">
+                <img src="images/pg5.webp" alt="Photo 7" loading="lazy">
+                <p>Violance IS The Answer</p>
+            </div>
+            <div class="photo-item">
+                <img src="images/pg8.webp" alt="Photo 8" loading="lazy">
+                <p>Main Character</p>
+            </div>
+            
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Get in Touch</h2>
+        <div class="social-links">
+            <a href="mailto:hilmi.pasha@gmail.com" class="social-icon" data-username="hilmi.pasha@gmail.com">
+                <i class="fas fa-envelope"></i>
+            </a>
+            <a href="https://github.com/heeaal2" class="social-icon" data-username="@heeaal2">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://linkedin.com/in/hilmi-pasha" class="social-icon" data-username="Hilmi Pasha">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://instagram.com/heeaal_" class="social-icon" data-username="@heeaal_">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
